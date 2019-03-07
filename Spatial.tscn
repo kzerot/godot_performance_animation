@@ -1,0 +1,236 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Spatial.gd" type="Script" id=1]
+[ext_resource path="res://golem/Golem.tscn" type="PackedScene" id=2]
+
+[node name="Spatial" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.969125, 0.246569, 0, -0.246569, 0.969125, 0, 24.7944, 43.1593 )
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 188.0
+margin_bottom = 40.0
+
+[node name="FPS" type="Label" parent="Panel"]
+margin_right = 113.0
+margin_bottom = 42.0
+
+[node name="Golems" type="Spatial" parent="."]
+
+[node name="Golem" parent="Golems" instance=ExtResource( 2 )]
+
+[node name="Golem29" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4087, 0, 0 )
+
+[node name="Golem53" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.0867, 0, 0 )
+
+[node name="Golem15" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -42.4129 )
+
+[node name="Golem40" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4087, 0, -42.4129 )
+
+[node name="Golem65" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.0867, 0, -42.4129 )
+
+[node name="Golem6" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.5615 )
+
+[node name="Golem26" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4087, 0, -10.5615 )
+
+[node name="Golem52" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.0867, 0, -10.5615 )
+
+[node name="Golem14" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -52.9744 )
+
+[node name="Golem28" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4087, 0, -52.9744 )
+
+[node name="Golem54" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.0867, 0, -52.9744 )
+
+[node name="Golem7" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -23.6617 )
+
+[node name="Golem25" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4087, 0, -23.6617 )
+
+[node name="Golem50" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.0867, 0, -23.6617 )
+
+[node name="Golem13" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -66.0746 )
+
+[node name="Golem27" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4087, 0, -66.0746 )
+
+[node name="Golem51" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.0867, 0, -66.0746 )
+
+[node name="Golem10" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 9.12689 )
+
+[node name="Golem30" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4087, 0, 9.12689 )
+
+[node name="Golem55" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.0867, 0, 9.12689 )
+
+[node name="Golem16" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -33.286 )
+
+[node name="Golem39" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -37.4087, 0, -33.286 )
+
+[node name="Golem64" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 40.0867, 0, -33.286 )
+
+[node name="Golem2" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6497, 0, 0 )
+
+[node name="Golem31" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50.0584, 0, 0 )
+
+[node name="Golem56" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.437, 0, 0 )
+
+[node name="Golem17" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6497, 0, -42.4129 )
+
+[node name="Golem41" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50.0584, 0, -42.4129 )
+
+[node name="Golem66" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.437, 0, -42.4129 )
+
+[node name="Golem4" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6497, 0, -10.5615 )
+
+[node name="Golem32" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50.0584, 0, -10.5615 )
+
+[node name="Golem57" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.437, 0, -10.5615 )
+
+[node name="Golem18" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6497, 0, -52.9744 )
+
+[node name="Golem42" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50.0584, 0, -52.9744 )
+
+[node name="Golem67" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.437, 0, -52.9744 )
+
+[node name="Golem9" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6497, 0, -23.6617 )
+
+[node name="Golem33" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50.0584, 0, -23.6617 )
+
+[node name="Golem58" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.437, 0, -23.6617 )
+
+[node name="Golem19" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6497, 0, -66.0746 )
+
+[node name="Golem43" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50.0584, 0, -66.0746 )
+
+[node name="Golem68" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.437, 0, -66.0746 )
+
+[node name="Golem12" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6497, 0, 9.12689 )
+
+[node name="Golem34" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50.0584, 0, 9.12689 )
+
+[node name="Golem59" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.437, 0, 9.12689 )
+
+[node name="Golem20" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6497, 0, -33.286 )
+
+[node name="Golem44" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -50.0584, 0, -33.286 )
+
+[node name="Golem69" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 27.437, 0, -33.286 )
+
+[node name="Golem3" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6715, 0, 0 )
+
+[node name="Golem35" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7372, 0, 0 )
+
+[node name="Golem60" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7582, 0, 0 )
+
+[node name="Golem21" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6715, 0, -42.4129 )
+
+[node name="Golem45" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7372, 0, -42.4129 )
+
+[node name="Golem70" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7582, 0, -42.4129 )
+
+[node name="Golem5" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6715, 0, -10.5615 )
+
+[node name="Golem36" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7372, 0, -10.5615 )
+
+[node name="Golem61" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7582, 0, -10.5615 )
+
+[node name="Golem22" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6715, 0, -52.9744 )
+
+[node name="Golem46" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7372, 0, -52.9744 )
+
+[node name="Golem71" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7582, 0, -52.9744 )
+
+[node name="Golem8" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6715, 0, -23.6617 )
+
+[node name="Golem37" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7372, 0, -23.6617 )
+
+[node name="Golem63" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7582, 0, -23.6617 )
+
+[node name="Golem23" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6715, 0, -66.0746 )
+
+[node name="Golem47" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7372, 0, -66.0746 )
+
+[node name="Golem72" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7582, 0, -66.0746 )
+
+[node name="Golem11" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6715, 0, 9.12689 )
+
+[node name="Golem38" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7372, 0, 9.12689 )
+
+[node name="Golem62" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7582, 0, 9.12689 )
+
+[node name="Golem24" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.6715, 0, -33.286 )
+
+[node name="Golem48" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7372, 0, -33.286 )
+
+[node name="Golem49" parent="Golems" instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7582, 0, -33.286 )
+
